@@ -1,0 +1,56 @@
+Flex: 
+flex-direction : how to column stack in the flex container. -> column, column-reverse, row, row-reverse 
+
+flex-wrap: items should be wrapped for responsive or not -> wrap, no-wrap, wrap-reverse 
+
+flex-flow: combination of direction and wrap 
+
+justify-content: center, flex-start, flex-end, space-around, space-between 
+
+align-item: vertically aligns the container -> center, flex-start, flex-end, stretch, baseline 
+
+align-content: space-between, space-around, center, flex-start, flex-end 
+
+ 
+
+just-content : inside containers completely occupies the flex container 
+
+align-content: inside containers doesn't occupies whole flex container 
+
+
+
+
+Float :
+
+. Flot is used to mention where the element should fall 
+
+2. Clear tells no child element which is having float value as clear value is not allowed.  
+
+1st child float value is left. 
+
+2nd child clear value is left. Now 2nd element goes to next line because 1st is already with float. 
+
+ 
+
+1st child float is left 
+
+2nd child clear is right 
+
+3rd child float is right. Now 3rd goes to next line and position at right. 
+
+ 
+
+ 
+ Position: 
+ 
+ Static: Static won't be impacted by Top, Bottom, Left, Right. Element always placed as per the DOM position 
+
+Relative: TBLR will have impact on this. But other elements will not have any impact due to this. 
+
+Absolute: Elements will be positioned based its parent (position without static). Other elements will not have impact due of its TBLR 
+
+Fixed: It is same as Relative but the element position is fixed while scrolling. This doesn’t impact other elements position. It overlays on those elements if                       required. 
+
+Sticky: It is combination of relative and fixed. 
+
+ 
